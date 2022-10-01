@@ -1,0 +1,11 @@
+create database crm;
+
+use crum:
+
+create table customer (
+ id  int(12) NOT NULL AUTO_INCREMENT,
+ firstname varchar(120) NOT NULL,
+ lastname varchar(220) NOT NULL,
+ email varchar(120),
+ PRIMARY KEY (id)
+);
